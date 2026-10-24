@@ -100,7 +100,7 @@ export default function FramedVideoTimerPage() {
   const [isRunning, setIsRunning] = useState(false);
 
   // Hourglass video state
-  const [videoSrc, setVideoSrc] = useState<string>("/hourglass.mp4");
+  const [videoSrc, setVideoSrc] = useState<string>("/vibethon-theme.mp4");
   const [videoError, setVideoError] = useState<boolean>(false);
   const [customVideoUploaded, setCustomVideoUploaded] = useState<boolean>(false);
   const [syncVideoWithTimer, setSyncVideoWithTimer] = useState<boolean>(true);
